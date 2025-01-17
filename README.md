@@ -1,4 +1,4 @@
-# Terraform AWS Environment 🚀
+# Terraform AWS Environment
 
 ## Overview
 Automated provisioning of a secure and scalable AWS environment using Terraform. This repository demonstrates how to set up a complete AWS stack, including VPC, EC2, RDS, and S3.
