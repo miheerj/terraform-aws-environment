@@ -20,3 +20,14 @@ terraform-aws-environment/
 ├── backend.tf                 # Remote state configuration
 ├── terraform.tfvars           # Default variable values
 ├── README.md                  # Documentation
+
+
+## Environments
+This repository supports multiple environments, such as `dev` and `prod`. Each environment has its own configuration files under the `envs/` directory.
+
+### Running Terraform for Development
+```bash
+cd envs/dev
+terraform init
+terraform plan
+terraform apply
